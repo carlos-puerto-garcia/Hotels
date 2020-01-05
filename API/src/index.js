@@ -12,7 +12,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 // Routes
-app.use(require('./routes/index'));
+app.use('/hotels', require('./routes/index'));
 
 // starting the server
 app.listen(app.get('port'), () => {
