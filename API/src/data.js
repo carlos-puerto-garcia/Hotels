@@ -26,7 +26,7 @@ const hotels = [
     stars: 4,
     images: [],
     price: 126
-  },
-];
+  }
+]
 
-module.exports = hotels;
+module.exports = hotels
